@@ -1,0 +1,297 @@
+body {
+  font-family: "Manrope";
+  font-size: 19px;
+  margin: 0;
+  font-weight: 500;
+}
+body .header .container {
+  margin: 0px 100px;
+}
+body .header .container .header-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .header .container .header-line .nav a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: black;
+}
+body .header .container .header-line .logo {
+  font-size: 25px;
+}
+body .header .container .header-line p {
+  margin: 15px;
+}
+body .header .container .header-line .tools {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+body .header .container .header-line .tools a {
+  text-decoration: none;
+  color: black;
+}
+body .header .container .header-line .tools .cart .t p {
+  margin: 0;
+}
+body .header .header-img {
+  background: #272727;
+  position: relative;
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+body .header .header-img img {
+  position: absolute;
+  right: 200px;
+  height: 500px;
+}
+body .header .header-img .img2 {
+  right: 400px;
+}
+body .header .header-img .block {
+  position: absolute;
+  top: 130px;
+  width: 300px;
+  left: 300px;
+}
+body .header .header-img .block .text {
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  margin-bottom: 0px;
+}
+body .header .header-img .block .desc {
+  color: rgb(215, 215, 215);
+  margin-top: 12px;
+  margin-bottom: 35px;
+}
+body .header .header-img .block a {
+  text-decoration: none;
+  color: rgb(221, 221, 221);
+  border: 1px solid white;
+  padding: 15px;
+}
+body .main .container {
+  margin: 10px 18vh;
+}
+body .main .container .products-title {
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+  font-size: 24px;
+}
+body .main .container .products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+body .main .container .products .product {
+  margin-bottom: 360px;
+  width: 300px;
+  text-align: center;
+  height: 30vh;
+  padding-top: 30px;
+}
+body .main .container .products .product img {
+  width: 300px;
+}
+body .main .container .products .product .price {
+  margin: 0;
+  font-size: 16px;
+}
+body .main .container .products .product form {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+body .main .container .products .product form input {
+  width: 3vh;
+  margin-right: 5px;
+  font-family: "Manrope";
+  font-size: 16px;
+}
+body .main .container .products .product form button {
+  font-size: 15px;
+  background: none;
+  border: 1px solid black;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Manrope";
+}
+body .main .container .cart-title {
+  text-align: left;
+  color: black;
+  font-size: 24px;
+}
+body .main .container .cart .table {
+  display: flex;
+  gap: 30px;
+}
+body .main .container .cart .table .cart-table {
+  width: 100%;
+}
+body .main .container .cart .table .cart-table tr th {
+  background: rgb(214, 214, 214);
+  font-weight: 500;
+  text-align: center;
+  padding: 10px;
+}
+body .main .container .cart .table .cart-table tr td {
+  padding: 10px;
+  border: 1px solid rgb(214, 214, 214);
+  text-align: center;
+}
+body .main .container .cart .order-cart {
+  width: 20%;
+  height: 20px;
+}
+body .main .container .cart .order-cart tr th {
+  background: rgb(214, 214, 214);
+  font-weight: 500;
+  text-align: center;
+  padding: 10px;
+}
+body .main .container .cart .order-cart tr td {
+  padding: 10px;
+  border: 1px solid gray;
+  text-align: center;
+}
+body .main .container .cart .order-cart tr td button {
+  font-family: "Jost";
+  font-size: 16px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1 px solid gray;
+  background: white;
+}
+body .main .container .cart .cart-clear {
+  margin-bottom: 40px;
+}
+body .main .container .cart .cart-clear button {
+  font-family: "Jost";
+  font-size: 16px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1 px solid gray;
+  background: white;
+}
+body .footer {
+  margin-top: 50px;
+}
+body .footer .container .side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .footer .container .side .number {
+  background: #6a6a6a;
+  height: 350px;
+  width: 100%;
+  position: relative;
+}
+body .footer .container .side .number p {
+  margin: 0;
+  color: rgb(202, 202, 202);
+}
+body .footer .container .side .number .up {
+  position: absolute;
+  top: 140px;
+  left: 150px;
+  text-transform: uppercase;
+  font-size: 21px;
+}
+body .footer .container .side .number .down {
+  position: absolute;
+  top: 180px;
+  left: 150px;
+}
+body .footer .container .side .form {
+  height: 350px;
+  background: #272727;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body .footer .container .side .form form {
+  margin-top: 80px;
+}
+body .footer .container .side .form form p {
+  padding-bottom: 10px;
+  font-size: 22px;
+  color: rgb(202, 202, 202);
+}
+body .footer .container .side .form form input {
+  margin-top: 5px;
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 10px;
+  padding-left: 15px;
+  font-family: "Manrope";
+  font-size: 16px;
+  background: none;
+  color: rgb(202, 202, 202);
+  display: block;
+}
+body .footer .container .side .form form input::-moz-placeholder {
+  color: rgb(147, 147, 147);
+}
+body .footer .container .side .form form input::placeholder {
+  color: rgb(147, 147, 147);
+}
+body .footer .container .side .form form button {
+  font-family: "Manrope";
+  padding: 5px;
+  font-size: 16px;
+  background: none;
+  border: 1px solid white;
+  color: rgb(202, 202, 202);
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+}
+body .footer .container .side .form form p {
+  margin: 0;
+}
+body .footer .down-footer {
+  margin-top: 5px;
+  background: #272727;
+}
+body .footer .down-footer .container {
+  margin: 0 130px;
+  font-size: 15px;
+  align-items: center;
+  display: flex;
+  color: rgb(219, 219, 219);
+  justify-content: space-between;
+}
+body .footer .down-footer .container .logo {
+  font-size: 20px;
+}
+body .footer .down-footer .container .tools .up {
+  gap: 10px;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: right;
+}
+body .footer .down-footer .container .tools .down {
+  display: flex;
+  margin: 5px;
+  gap: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: right;
+}
+body .footer .down-footer .container .tools .down p {
+  margin: 0;
+}
+body .footer .down-footer .container .tools a {
+  text-decoration: none;
+  color: rgb(219, 219, 219);
+  text-transform: uppercase;
+}/*# sourceMappingURL=main.css.map */

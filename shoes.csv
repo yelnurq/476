@@ -1,0 +1,7 @@
+id,name,image_url,price,created_at,updated_at
+1,"СЕРО-ЧЕРНЫЙ СМОКИНГ PHILIP",img/s1.jpg,115000,"2024-05-02 07:44:43","2024-05-02 07:44:43"
+2,"СИНЕ-ЧЕРНЫЙ СМОКИНГ FRED",img/s2.jpg,150000,NULL,NULL
+3,"СИНЕ-ЧЕРНЫЙ СМОКИНГ OWEN",img/s3.jpg,160000,NULL,NULL
+4,"ЧЕРНЫЙ СМОКИНГ JACKSON",img/s4.jpg,150000,NULL,NULL
+5,"ЧЕРНЫЙ СМОКИНГ MORGAN",img/s5.jpg,130000,NULL,NULL
+6,"ЧЕРНЫЙ СМОКИНГ ROBERT",img/s6.jpg,200000,NULL,NULL
